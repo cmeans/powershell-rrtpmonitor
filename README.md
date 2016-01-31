@@ -1,4 +1,4 @@
-# node-rrtpmonitor
+# powershell-rrtpmonitor
 Check the current ComEd RRTP Rate and trigger an event in IFTTT.
 
 This routine will fire a Maker trigger whenever the RRTP rate threshold changes (this way you're not getting constant events firing).
