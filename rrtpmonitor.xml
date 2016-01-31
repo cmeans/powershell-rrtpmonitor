@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Settings>
+    <LastThresholdFileName>./lastThreshold.txt</LastThresholdFileName>
+    <RRTPUrl>https://hourlypricing.comed.com/api?type=currenthouraverage</RRTPUrl>
+    <Maker>
+        <EventName>rrtp</EventName>
+        <Key>PUT-YOUR-MAKER-KEY-HERE</Key>
+        <Url>https://maker.ifttt.com/trigger/{0}/with/key/{1}</Url>
+    </Maker>
+    <Thresholds>
+        <Threshold>
+            <Name>Negative</Name>
+            <Value>0.0</Value>
+            <Color>white</Color>
+        </Threshold>
+        <Threshold>
+            <Name>Low</Name>
+            <Value>4.0</Value>
+            <Color>green</Color>
+        </Threshold>
+        <Threshold>
+            <Name>Moderate</Name>
+            <Value>7.0</Value>
+            <Color>blue</Color>
+        </Threshold>
+        <Threshold>
+            <Name>High</Name>
+            <Value>10.0</Value>
+            <Color>red</Color>
+        </Threshold>
+        <Threshold>
+            <Name>Extreme</Name>
+            <Value>1000.0</Value>
+            <Color>yellow</Color>
+        </Threshold>
+    </Thresholds>
+</Settings>
